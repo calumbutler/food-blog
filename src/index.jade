@@ -1,0 +1,33 @@
+doctype html
+
+html
+	head
+		link(href="css/style.css" rel="stylesheet")
+		//script(async src='js/vendor/babel-polyfill/browser-polyfill.js')
+		//script(src='js/vendor/requirejs/require.js')
+		//- script.
+		//- 	var require = {config: function (c) {require = c}};
+		//- 	var URL = location.href.replace(/\/[^/]+$/, '').replace('#', '');
+		//- 	require.config({
+		//- 			//baseUrl: URL,
+		//- 			isDebug: false,
+		//- 			async: true,
+		//- 			paths:{
+		//- 					'shared': URL + 'js/shared',
+		//- 					'shim': URL + 'shim',
+		//- 					//'vendor': URL + 'vendor',
+		//- 					'components': URL + 'js/components',
+		//- 					'react': URL + 'js/vendor/react/react',
+		//- 					'react-dom': URL + 'js/vendor/react/react-dom',
+		//- 					'react-router': URL + 'js/vendor/react-router/',
+		//- 					'altjs': URL + 'js/vendor/alt/dist/alt',
+		//- 					'Config': URL + 'js/config'
+		//- 			}
+		//- 		});
+		//- 		console.log(URL)
+		script(src="loader.js")
+	
+	body#content.content
+		div#container
+
+			
