@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/js/components/header/actions.js"],"names":[],"mappings":";;;;;;;;;MAEM,OAAO,YAAP,OAAO;0BAAP,OAAO;;;AAGN,MAAM,OAAO,GAAG,YALf,UAAU,CAKgB,aAAa,CAAC,OAAO,CAAC,CAAC","file":"actions.js","sourcesContent":["import {dispatcher} from 'dispatcher';\n\nclass Actions {\n\n}\nexport const actions = dispatcher.createActions(actions);\n"]}

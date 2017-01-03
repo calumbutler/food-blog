@@ -1,10 +1,9 @@
 /node_modules
 /src/tests/node_modules
-/build
 *.sublime*
 dist
 *.log
 .DS_Store
 .sass_cache
 elm-stuff
-Gemfile.lock
+Gemfile.lockgit
