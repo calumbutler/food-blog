@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/js/alt.js"],"names":[],"mappings":";;;;;;;AACA,SAAO,CAAC,GAAG,CAAC,sBAAS,CAAC,CAAA;mBACP,UAAU,GAAG,sBAAS","file":"alt.js","sourcesContent":["import alt from 'alt';\nconsole.log(new alt())\nexport default dispatcher = new alt();\n"]}
