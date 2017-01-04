@@ -59,7 +59,7 @@ define(['exports', 'module', 'react'], function (exports, module, _react) {
 							),
 							_React['default'].createElement(
 								'li',
-								null,
+								{ className: 'last' },
 								' areas'
 							)
 						)

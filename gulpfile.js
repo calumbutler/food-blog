@@ -39,11 +39,13 @@ config = {
     'src/js/vendor/**/*/*.woff',
     'src/js/vendor/**/*/*.ttf',
     'src/js/vendor/leaflet/dist/**/*',
-    'src/images/**/*'
+    'src/images/**/*',
+    'src/css/fonts/**/*'
   ],
   copyDistSrc: [
     'build/**/*.css',
     'build/**/*.html',
+    'build/**/*.ttf',
     'build/images/**/*',
     'build/index.php'
     ],
@@ -54,7 +56,8 @@ config = {
   browserSyncSrc: [
     'build/**/*.html',
     'build/**/*.js',
-    'build/**/*.css'
+    'build/**/*.css',
+    'build/**/*.ttf',
   ],
   watchSrc: [
     'src/**/*.html',

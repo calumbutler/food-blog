@@ -11,6 +11,7 @@
 @include font-face('Oswald-Regular', 'fonts/Oswald-Regular', $file-formats: ttf);
 @include font-face('Oswald-Bold', 'fonts/Oswald-Bold', 'bold', $file-formats: ttf);
 @include font-face('Oswald-Light', 'fonts/Oswald-Light', 'light', $file-formats: ttf);
+
 $Oswald-Regular: 'Oswald-Regular';
 body, html{
   width: 100%;
@@ -26,6 +27,10 @@ body, html{
 
 .text-shadow__small{
   text-shadow: 3px 2px rgba(50, 50, 50, 0.5);
+}
+
+.text-center{
+  text-align: center;
 }
 
 .flex{

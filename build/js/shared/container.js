@@ -45,6 +45,7 @@ define(['exports', 'module', 'shared/header', 'shared/footer', 'components/home/
             _React['default'].createElement(
               _reactRouter.Router,
               { history: _reactRouter.hashHistory },
+              _React['default'].createElement(_reactRouter.Route, { path: '/', component: _Home['default'] }),
               _React['default'].createElement(_reactRouter.Route, { path: '/home/', component: _Home['default'] }),
               _React['default'].createElement(
                 _reactRouter.Route,

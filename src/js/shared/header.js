@@ -18,7 +18,7 @@ export default class Header extends React.Component {
 						<li> Recipes</li>
 						<li> Techniques</li>
 						<li> other</li>
-						<li> areas</li>
+						<li className='last'> areas</li>
 					</ul>
 				</header>
 			</article>

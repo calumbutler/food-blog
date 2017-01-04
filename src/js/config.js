@@ -1,6 +1,7 @@
 export const Config = {
 		newRecipes: [
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container__large',
 				imgUrl:'images/carrots.jpeg',
 				id: 1,
@@ -23,6 +24,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container__small',
 				imgUrl:'images/cupcakes.jpeg',
 				id: 3,
@@ -34,6 +36,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container__small',
 				imgUrl:'images/eggs.jpeg',
 				id: 4,
@@ -45,6 +48,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container__large',
 				imgUrl:'images/medley.jpg',
 				id: 5,
@@ -56,6 +60,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container',
 				imgUrl:'images/pizza.jpg',
 				id: 6,
@@ -67,6 +72,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container',
 				imgUrl:'images/salad.jpeg',
 				id: 7,
@@ -78,6 +84,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container__large',
 				imgUrl:'images/calamari.jpeg',
 				id: 8,
@@ -89,6 +96,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container__small',
 				imgUrl:'images/soup.jpg',
 				id: 9,
@@ -100,6 +108,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container__large',
 				imgUrl:'images/curry.jpg',
 				id: 10,
@@ -111,6 +120,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container__small',
 				imgUrl:'images/cake.jpg',
 				id: 11,
@@ -122,6 +132,7 @@ export const Config = {
 				]
 			},
 			{
+				title: 'jelly beans crushed into the shape of shrimp',
 				className:'content--image-container',
 				imgUrl:'images/smoothie.jpg',
 				id: 12,
