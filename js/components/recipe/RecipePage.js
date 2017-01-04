@@ -49,11 +49,15 @@ define(['exports', 'module', 'react', 'components/recipe/actions', 'components/r
 						{ className: 'recipe--container__wrapper flex flex-column' },
 						_React['default'].createElement(
 							'div',
-							{ className: 'recipe--title__container text-center' },
+							{ className: 'text-center flex flex-row justify-center' },
 							_React['default'].createElement(
-								'h2',
-								null,
-								_componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].title
+								'div',
+								{ className: 'text-center recipe--title__container' },
+								_React['default'].createElement(
+									'h2',
+									null,
+									_componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].title
+								)
 							)
 						),
 						_React['default'].createElement(
@@ -64,7 +68,7 @@ define(['exports', 'module', 'react', 'components/recipe/actions', 'components/r
 								{ className: 'recipe--section' },
 								_React['default'].createElement(
 									'h3',
-									null,
+									{ className: 'text-center' },
 									'Ingredients'
 								),
 								_React['default'].createElement(
@@ -84,7 +88,7 @@ define(['exports', 'module', 'react', 'components/recipe/actions', 'components/r
 								{ className: 'recipe--section' },
 								_React['default'].createElement(
 									'h3',
-									null,
+									{ className: 'text-center' },
 									'Method'
 								),
 								_React['default'].createElement(

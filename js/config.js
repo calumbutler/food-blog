@@ -12,6 +12,7 @@ define(['exports'], function (exports) {
 			id: 1,
 			directions: ['Preheat oven to 400 degrees F (200 degrees C).', 'In a small bowl, stir together butter, mustard, and honey. Set aside. In another bowl, mix together bread crumbs, pecans, and parsley.', 'Brush each salmon fillet lightly with honey mustard mixture, and sprinkle the tops of the fillets with the bread crumb mixture.', 'Bake salmon 12 to 15 minutes in the preheated oven, or until it flakes easily with a fork. Season with salt and pepper, and garnish with a wedge of lemon.']
 		}, {
+			title: 'Pork with Apples, Onion and Bay',
 			className: 'content--image-container',
 			imgUrl: 'images/pork.jpg',
 			id: 2,

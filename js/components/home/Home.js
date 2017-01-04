@@ -44,7 +44,16 @@ define(['exports', 'module', 'react', 'components/home/actions', 'components/hom
 					_componentsHomeStore.homeStore.getState().newRecipes.map(function (item) {
 						return _React['default'].createElement(
 							'div',
-							{ className: item.className },
+							{ className: item.className + ' relative' },
+							_React['default'].createElement(
+								'div',
+								{ className: 'home--recipe__title absolute' },
+								_React['default'].createElement(
+									'h4',
+									null,
+									item.title
+								)
+							),
 							_React['default'].createElement(
 								_reactRouter.Link,
 								{ to: "/recipe/" + item.id },

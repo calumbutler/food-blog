@@ -74,7 +74,7 @@ button {
   background-size: cover; }
 
 .recipe--container__wrapper {
-  padding: 20px;
+  padding: 40px 20px 20px 20px;
   margin: 0 auto;
   min-width: 500px;
   width: calc(100% - 100px); }
@@ -83,17 +83,18 @@ button {
   padding: 60px 0px; }
 
 .recipe--title__container {
-  padding: 10px;
+  padding: 10px 40px;
   background: #EEF2F7;
   color: #624F62;
-  opacity: 0.85; }
+  opacity: 0.85;
+  width: auto;
+  align-content: center; }
 
 .recipe--section {
   background: #EEF2F7;
   opacity: 0.85;
   width: 400px;
   min-width: 400px;
-  height: 500px;
   padding: 20px 20px;
   width: calc(50% - 80px); }
 
@@ -101,6 +102,15 @@ button {
   font-size: 18px;
   color: #624F62;
   line-height: 30px; }
+
+.home--recipe__title {
+  z-index: 40;
+  top: 71px;
+  background: white;
+  margin: 0 auto;
+  opacity: 0.85;
+  width: 100%;
+  text-align: center; }
 
 /* ==========================================================================
    Normalize.scss settings
@@ -526,5 +536,14 @@ body, html {
 
 .flex-1 {
   flex: 1; }
+
+.absolute {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+.hidden {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
