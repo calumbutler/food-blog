@@ -43,48 +43,61 @@ define(['exports', 'module', 'react', 'components/recipe/actions', 'components/r
 				console.log(_componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1]);
 				return _React['default'].createElement(
 					'div',
-					{ id: 'recipe-container', className: 'recipe-container', style: { backgroundImage: 'url(' + _componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].imgUrl + ')' } },
+					{ id: 'recipe-container', className: 'recipe--container', style: { backgroundImage: 'url(' + _componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].imgUrl + ')' } },
 					_React['default'].createElement(
 						'div',
-						{ className: 'recipe-box flex flex-row justify-between' },
+						{ className: 'recipe--container__wrapper flex flex-column' },
 						_React['default'].createElement(
 							'div',
-							{ className: 'recipe-section' },
+							{ className: 'recipe--title__container text-center' },
 							_React['default'].createElement(
-								'h3',
+								'h2',
 								null,
-								'Method'
-							),
-							_React['default'].createElement(
-								'ol',
-								{ className: 'direction-list' },
-								_componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].directions.map(function (item) {
-									return _React['default'].createElement(
-										'li',
-										null,
-										item
-									);
-								})
+								_componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].title
 							)
 						),
 						_React['default'].createElement(
 							'div',
-							{ className: 'recipe-section' },
+							{ className: 'recipe--box flex flex-row flex-wrap justify-between' },
 							_React['default'].createElement(
-								'h3',
-								null,
-								'Ingredients'
+								'div',
+								{ className: 'recipe--section' },
+								_React['default'].createElement(
+									'h3',
+									null,
+									'Ingredients'
+								),
+								_React['default'].createElement(
+									'ol',
+									{ className: 'direction--list' },
+									_componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].directions.map(function (item) {
+										return _React['default'].createElement(
+											'li',
+											null,
+											item
+										);
+									})
+								)
 							),
 							_React['default'].createElement(
-								'ol',
-								{ className: 'direction-list' },
-								_componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].directions.map(function (item) {
-									return _React['default'].createElement(
-										'li',
-										null,
-										item
-									);
-								})
+								'div',
+								{ className: 'recipe--section' },
+								_React['default'].createElement(
+									'h3',
+									null,
+									'Method'
+								),
+								_React['default'].createElement(
+									'ol',
+									{ className: 'direction--list' },
+									_componentsHomeStore.homeStore.getState().newRecipes[this.props.params.recipeId - 1].directions.map(function (item) {
+										return _React['default'].createElement(
+											'li',
+											null,
+											item
+										);
+									})
+								)
 							)
 						)
 					)

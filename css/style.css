@@ -20,10 +20,13 @@ button {
 
 .header--navigation {
   list-style: none;
-  font-size: 24px; }
+  font-size: 24px;
+  line-height: 30px; }
   .header--navigation li {
-    padding: 5px 20px;
-    border-right: 1px solid #fff; }
+    height: 30px;
+    padding: 5px 10px;
+    border-right: 1px solid #fff;
+    cursor: pointer; }
   .header--navigation li.last {
     border-right: 0px solid #fff; }
 
@@ -64,23 +67,37 @@ button {
   .footer--navigation li {
     padding: 5px 20px; }
 
-.recipe-container {
+.recipe--container {
   min-height: 540px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover; }
 
-.recipe-box {
-  padding: 20px; }
+.recipe--container__wrapper {
+  padding: 20px;
+  margin: 0 auto;
+  min-width: 500px;
+  width: calc(100% - 100px); }
 
-.recipe-section {
+.recipe--box {
+  padding: 60px 0px; }
+
+.recipe--title__container {
+  padding: 10px;
   background: #EEF2F7;
-  opacity: 0.7;
-  width: calc(50% - 80px);
-  height: 500px;
-  padding: 20px; }
+  color: #624F62;
+  opacity: 0.85; }
 
-.direction-list {
+.recipe--section {
+  background: #EEF2F7;
+  opacity: 0.85;
+  width: 400px;
+  min-width: 400px;
+  height: 500px;
+  padding: 20px 20px;
+  width: calc(50% - 80px); }
+
+.direction--list {
   font-size: 18px;
   color: #624F62;
   line-height: 30px; }
@@ -482,6 +499,9 @@ body, html {
 
 .text-shadow__small {
   text-shadow: 3px 2px rgba(50, 50, 50, 0.5); }
+
+.text-center {
+  text-align: center; }
 
 .flex {
   display: flex; }
